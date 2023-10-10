@@ -256,17 +256,7 @@ main {
     margin: 5px 0;
     white-space: nowrap;
     overflow: hidden;
-    max-width: 100%; /* Ensure that the marquee effect respects the .effect div's width */
-    animation: marquee 5s linear infinite;
-}
-
-@keyframes marquee {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(calc(-100% + 100%)); /* Adjust the calculation */
-    }
+    max-width: 100%;
 }
 
 
@@ -484,6 +474,17 @@ main {
     color: #36395A;
 }
 
+.tools-and-skills ul {
+    text-align: center;
+}
+
+.tools-and-skills ul li{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 20px;
+}
 
 
 
@@ -558,7 +559,3 @@ main {
         margin: 1rem 0;
     }
 }
-
- 
-
-
