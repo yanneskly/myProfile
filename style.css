@@ -402,6 +402,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .card-title {
@@ -446,9 +447,13 @@ main {
     background-color: rgba(214, 214, 231, 0.4);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    width: 400px;
-    height: 500px;
+    width: calc(50% - 10px);
+    height: 630px;
     align-items: center;
+}
+
+.card-item p a {
+    text-decoration: none;
 }
 
 .card-img img {
@@ -457,6 +462,14 @@ main {
     display: block;
     margin: 0 auto;
 }
+
+.card-img-height img {
+    width: 200px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
 
 .card-content {
     font-size: 15px;
@@ -476,6 +489,7 @@ main {
 
 .tools-and-skills ul {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .tools-and-skills ul li{
@@ -486,6 +500,17 @@ main {
     border-radius: 20px;
 }
 
+.project-contents p {
+    margin-top: 3px;
+    padding-top: 5px;
+}
+
+
+.project-date p{
+    font-family: 'REM', sans-serif;
+    color: #999;
+    text-align: center;
+}
 
 
 @media (max-width: 768px) {
