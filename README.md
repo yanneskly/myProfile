@@ -1,5 +1,5 @@
 # My Website
-Get to know more about me: https://yanneskly.github.io/myProfile/
+My New Wesite: [HERE](http://www.yannes8.wordpress.com)
 
 
 
